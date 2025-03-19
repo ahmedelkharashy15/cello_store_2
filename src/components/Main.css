@@ -1,0 +1,38 @@
+.main-section{
+    background-image: url(../assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 76px;
+}
+
+.main-box{
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    padding: 180px 0px;
+}
+
+.main-button{
+    border: none;
+    background-color: #faa51e;
+    padding: 15px;
+    color: white;
+    border-radius: 7px;
+    width: 220px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+
+.main-button:hover{
+    transform: scale(1.15);
+}
+
+@media (max-width : 567px) {
+    .main-box{
+        text-align: center;
+    }
+    .main-button{
+        margin: auto;
+    }
+}

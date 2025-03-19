@@ -1,0 +1,42 @@
+.account-details{
+    margin-top: 120px;
+    padding: 0px 250px;
+}
+
+.line2{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.orders-history{
+    margin-top: 80px;
+    padding: 0px 120px;
+}
+
+.orders-box p{
+    padding: 70px 0px;
+    box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.1);
+}
+
+.weather{
+    border-radius: 10px;
+}
+
+@media (max-width : 960px) {
+    .account-details{
+        padding: 0px 100px;
+    }
+    .orders-history{
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width : 567px) {
+    .account-details{
+        padding: 0px 10px;
+    }
+    .orders-history{
+        padding: 0px 10px;
+    }
+}

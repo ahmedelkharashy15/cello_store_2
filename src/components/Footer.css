@@ -1,0 +1,28 @@
+.icons-box{
+    color: white;
+    font-size: 30px;
+}
+
+.icons-box i{
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: aqua;
+}
+
+.fa-facebook-square:hover{
+    color: #1877F2;
+}
+
+.fa-instagram:hover{
+    color: #E1306C;
+}
+
+.fa-linkedin:hover{
+    color: #0077B5;
+}
+
+.copyright-text{
+    color: rgb(85, 85, 85);
+}

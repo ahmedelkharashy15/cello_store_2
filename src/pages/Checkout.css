@@ -1,0 +1,32 @@
+.check-section{
+    margin: 120px auto 60px;
+}
+
+.checkout-form{
+    margin: auto;
+    padding: 30px 30px;
+    border: 1.5px solid rgb(192,192,192);
+    width: 40%;
+}
+
+.checkout-form input:focus , .checkout-form input:active , .checkout-form select:focus , .checkout-form select:active , .checkout-form textarea:focus , .checkout-form textarea:active{
+    border-color: rgb(192,192,192);
+    box-shadow: none;
+}
+
+.form-label:not(#textArea)::after {
+    content: " *";
+    color: red;
+}
+
+@media (max-width : 920px) {
+    .checkout-form{
+        width: 65%;
+    }
+}
+
+@media (max-width : 567px) {
+    .checkout-form{
+        width: 85%;
+    }
+}

@@ -1,0 +1,22 @@
+.product-section{
+    margin-top: 130px;
+}
+
+.product-container{
+    box-shadow: 0px 4px 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-container img{
+    transition: 0.5s;
+}
+
+.product-container img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@media (max-width : 567px) {
+    .product-container img:hover{
+        transform: scale(1);
+    }
+}

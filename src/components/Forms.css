@@ -1,0 +1,27 @@
+.forms-section{
+    margin: 130px auto 60px;
+}
+
+.register-form , .login-form{
+    padding: 30px 30px;
+    border: 1.5px solid #212529;
+    border-radius: 10px;
+}
+
+.register-form form{
+    position: relative;
+}
+
+.form-border-label{
+    position: absolute;
+    transform: translateY(-110%);
+    pointer-events: none;
+    background-color: white;
+    padding: 15px;
+}
+
+.forms-section input:focus , .forms-section input:active{
+    border-color: rgb(192,192,192);
+    box-shadow: none;
+}
+
