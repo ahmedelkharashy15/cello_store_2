@@ -20,7 +20,7 @@ export default function Account() {
     useEffect(() => {
       const fetchWeather = async () => {
         try {
-          const response = await axios.get(`http://api.weatherapi.com/v1/current.json?key=${api}&q=${city}&aqi=no`);
+          const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${api}&q=${city}&aqi=no`);
           setWeather(response.data);
           console.log(weather.location.name)
         } catch (error) {
